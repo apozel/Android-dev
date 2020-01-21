@@ -4,10 +4,16 @@
     <string name="username">Pseudo</string>
     <string name="password">mot de passe</string>
     <string name="connect">connexion</string>
-    
+
     <string name="hello">Bonjour</string>
     <string name="cycle">Cycle de vie</string>
     <string name="save">Sauvegarde</string>
     <string name="Permission">Permission</string>
     <string name="web">WebService</string>
+
+    <string name="messageChangementEtat">Je suis sur le devant de la scene</string>
+    <string name="choixFragment">choix Fragment</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

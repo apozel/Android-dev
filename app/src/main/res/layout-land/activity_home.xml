@@ -10,7 +10,7 @@
         android:id="@+id/welcomeHome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="32dp"
         android:text="@string/hello"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -21,12 +21,12 @@
         android:id="@+id/cycleVieButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="161dp"
+        android:layout_marginTop="32dp"
         android:background="@color/colorPrimary"
         android:text="@string/cycle"
         android:textColor="@color/colorTextWhite"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.32"
+        app:layout_constraintHorizontal_bias="0.33"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/welcomeHome" />
 
@@ -34,33 +34,33 @@
         android:id="@+id/saveButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
         android:background="@color/colorPrimary"
         android:text="@string/save"
         android:textColor="@color/colorTextWhite"
-        app:layout_constraintBottom_toBottomOf="@+id/cycleVieButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.66"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/cycleVieButton" />
+        app:layout_constraintTop_toBottomOf="@+id/welcomeHome" />
 
     <Button
         android:id="@+id/permissionButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
         android:background="@color/colorPrimary"
         android:text="@string/Permission"
         android:textColor="@color/colorTextWhite"
-        app:layout_constraintBottom_toBottomOf="@+id/webButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.33"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/webButton" />
+        app:layout_constraintTop_toBottomOf="@+id/cycleVieButton" />
 
     <Button
         android:id="@+id/webButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="56dp"
         android:background="@color/colorPrimary"
         android:text="@string/web"
         android:textColor="@color/colorTextWhite"
