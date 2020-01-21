@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AndroidToolBox</string>
+    <string name="welcome">Bienvenue</string>
+    <string name="username">Pseudo</string>
+    <string name="password">mot de passe</string>
+    <string name="connect">connexion</string>
+    
+    <string name="hello">Bonjour</string>
+    <string name="cycle">Cycle de vie</string>
+    <string name="save">Sauvegarde</string>
+    <string name="Permission">Permission</string>
+    <string name="web">WebService</string>
+</resources>
