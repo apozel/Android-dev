@@ -15,7 +15,7 @@ import kotlinx.android.synthetic.main.activity_web.*
 
 class WebActivity : AppCompatActivity() {
 
-    val queue = Volley.newRequestQueue(this)
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -24,6 +24,7 @@ class WebActivity : AppCompatActivity() {
     }
 
     fun testGet() {
+
 
         val userApiUrl = "https://randomuser.me/api/?results=2"
         val queue = Volley.newRequestQueue(this)

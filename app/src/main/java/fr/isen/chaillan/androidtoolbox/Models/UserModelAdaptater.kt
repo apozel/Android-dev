@@ -13,7 +13,7 @@ import kotlinx.android.synthetic.main.recycler_view_user_cell.view.*
 
 class UserModelAdaptater(val contacts: ArrayList<UserModel>): RecyclerView.Adapter<UserModelAdaptater.ContactViewHolder>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ContactViewHolder {
-        val view = LayoutInflater.from(parent.context).inflate(R.layout.recycler_view_contact_cell, parent, false)
+        val view = LayoutInflater.from(parent.context).inflate(R.layout.recycler_view_user_cell, parent, false)
         return ContactViewHolder(view)
     }
 
@@ -29,7 +29,7 @@ class UserModelAdaptater(val contacts: ArrayList<UserModel>): RecyclerView.Adapt
 
     class ContactViewHolder(val view: View): RecyclerView.ViewHolder(view) {
         fun bind(contact: UserModel) {
-            view.presentationText.text = contact.name?.first
+            view.presentationText.text = contact.name?.first ?: "name"
         }
 
         fun picasso(contact: UserModel){
